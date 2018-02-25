@@ -1,7 +1,6 @@
 {
   "name": "cointop",
   "version": "0.1.1",
-  "author": "Fatih Acet <acetfatih@gmail.com>",
   "description": "CoinTop: Realtime crypto portfolio app for desktop",
   "license": "MIT",
   "main": "./dist/electron/main.js",
@@ -20,10 +19,10 @@
     "unit": "karma start test/unit/karma.conf.js",
     "postinstall": "npm run lint:fix && electron-builder install-app-deps"
   },
-  "repository": "https://github.com/fatihacet/CoinTop.git",
+  "repository": "https://github.com/freshwebcoder/CoinTop.git",
   "build": {
     "productName": "CoinTop",
-    "appId": "org.fatihacet.cointop",
+    "appId": "org.freshwebcoder.cointop",
     "directories": {
       "output": "build"
     },
